@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Ubuntu:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: white;
+    font-family: 'Roboto',sans-serif;
+   
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    min-height: 100vh;
+    margin-top: -10px;
+}
+
+.Phone{
+   height: 78vh;
+}
+
+.form1{
+    display: flex;
+    flex-direction: column;
+}
+
+.form1 form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 3vh 2vw;
+    border: 1px solid rgba(128, 128, 128,0.3);
+}
+
+.form1 .instalogo{
+    width: 200px;
+    margin: 20px 0;
+}
+
+.form1 form .input{
+    width: 90%;
+    padding: 0.6rem;
+    margin: 3px;
+    border-radius: 8px;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+
+
+.login{
+    width: 97%;
+    padding: .4rem;
+    margin: 8px 0;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(1,183, 255);
+    font-weight: 700;
+    color: white;
+
+}
+
+#or{
+    margin: 10px 0;
+}
+
+#or::before,#or::after{
+    content: '---------------';
+    color: rgba(128, 128,128,0.3);
+    margin: 0 10px;
+}
+
+.fb-login {
+    font-weight: 700;
+    font-size: 95%;
+    color: #385185;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+#Forgotten{
+    margin-top: -20px;
+    font-size: 70%;
+}
+
+.signup {
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.3); 
+    border-radius: 1px;
+    box-sizing: border-box;
+    font: Roboto;
+    font-size: 100%;
+    margin: 0 0 10px;
+    margin-top: 10px;
+    padding: 20px 0;
+}
+
+.get-app {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.store {
+    display: flex;
+    align-items: center;
+}
+
+#play {
+    width: 170px;
+}
+
+#microsoft {
+    width: 135px;
+    border-radius: 8px;
+}
+
+#footers{
+    text-align: center;
+   font-size: small;
+   margin-top: -25px;
+}
